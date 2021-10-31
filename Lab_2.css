@@ -1,0 +1,56 @@
+article {
+    color: #000033;
+    background-color: honeydew;
+    font-size: large;
+    font-style: italic; }
+
+#tbl1 {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    border: 4px solid #CC3300; }
+
+#tbl1 td:nth-child(2n) { background-color: #CC9999;  text-align: right  }
+#tbl1 td:nth-child(2n+1) { background-color: #FF9933;}
+
+.AbsoluteBox {
+    position: absolute;
+    top: 120px;
+    left: 1300px;
+    height: 25px;
+    width: 150px;
+    background:yellow; }
+    
+.RelativeBox {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    height: 50px;
+    width: 150px;
+    background: rgb(145, 224, 145); }
+
+.FloatModel {
+    float: right;
+    background: #66FFCC;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 20px;
+    width: 40%; }
+
+.Container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; }
+    
+input[type=checkbox] + label {
+    background:Chartreuse;
+    height:75px;
+    width:75px;
+    margin: 5px;
+    display:inline-block; }
+
+input[type=checkbox]:checked + label { background:yellow; }
+
+#box9 + label { width:670px; }
+
+
